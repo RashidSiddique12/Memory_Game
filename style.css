@@ -1,0 +1,21 @@
+body{
+    background-color: grey;
+    margin: 0;
+}
+
+.squares{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    margin:48px auto;
+    gap: 16px;
+    width: max-content;
+    /* background-color: antiquewhite; */
+
+}
+
+.square{
+    height: 100px;
+    background-color: black;
+    border: 5px solid #444444;
+	cursor: pointer;
+}
